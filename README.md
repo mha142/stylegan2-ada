@@ -1,8 +1,9 @@
-## StyleGAN2 with adaptive discriminator augmentation (ADA)<br>&mdash; Official TensorFlow implementation
-#migrate the code from Tensorflow 1.x to Tensorflow 2.x
+
+## Migrate the code from Tensorflow 1.x to Tensorflow 2.x
 **To convert FFHQ tf records to regular images**:
 python dataset_tool.py unpack --tfrecord_dir=../ffhq_TFrecords/ --output_dir=../unpacked_ffhq
 
+## StyleGAN2 with adaptive discriminator augmentation (ADA)<br>&mdash; Official TensorFlow implementation
 ![Teaser image](./docs/stylegan2-ada-teaser-1024x252.png)
 
 **Training Generative Adversarial Networks with Limited Data**<br>
