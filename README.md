@@ -165,7 +165,7 @@ python download_ffhq.py --tfrecords
 popd
 python dataset_tool.py display ~/ffhq-dataset/tfrecords/ffhq
 ```
-To convert FFHQ tf records to regular images run the following:
+**To convert FFHQ tf records to regular images**  run the following:
 python dataset_tool.py unpack --tfrecord_dir=../ffhq_TFrecords/ --output_dir=../unpacked_ffhq
 
 **LSUN**: Download the desired LSUN categories in LMDB format from the [LSUN project page](https://www.yf.io/p/lsun) and convert to TFRecords:
